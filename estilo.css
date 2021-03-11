@@ -1,0 +1,131 @@
+::selection { color: white;
+    background-color: black;
+}
+
+body { background-color: #e0fff3;
+}
+
+form { display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+h1 { font-size: 4vw;
+    text-align: center;
+}
+
+label { font-size: 2vw;
+    padding-bottom: 0.5vh;
+}
+
+select { font-size: 1.5vw;
+    height: 4vh;
+}
+
+input { font-size: 1.5vw;
+}
+
+nav { display: flex;
+    flex-direction: column;
+    padding: 1vh;
+}
+
+div { display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#btn_sacar { background-color: #00e55e;
+    border: none;
+    color: white;
+    padding: 1.8vh 4.5vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.8vw;
+    cursor: pointer;
+}
+
+#btn_limpar { background-color: #f60600;
+    border: none;
+    color: white;
+    padding: 1.8vh 4.5vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.8vw;
+    cursor: pointer;
+}
+
+img { width: 80%;
+}
+
+ul { text-align: center;
+    font-size: 1.6vw;
+}
+
+#grid { display: grid;
+    grid:
+            "nota_100 nota_50 nota_20" 2fr
+            "qtd_100 qtd_50 qtd_20" 0.5fr
+            "nota_10 nota_5 nota_2" 2fr
+            "qtd_10 qtd_5 qtd_2" 0.5fr
+    / 2fr 2fr 2fr;
+}
+
+.nota_100 { grid-area: nota_100;
+    margin: 2px;
+}
+
+.nota_50 { grid-area: nota_50;
+    margin: 2px;
+}
+
+.nota_20 { grid-area: nota_20;
+    margin: 2px;
+}
+
+.nota_10 { grid-area: nota_10;
+    margin: 2px;
+}
+
+.nota_5 { grid-area: nota_5;
+    margin: 2px;
+}
+
+.nota_2 { grid-area: nota_2;
+    margin: 2px;
+}
+
+.nota_1 { grid-column: 2;
+    margin: 2px;
+}
+
+.qtd_100 { grid-area: qtd_100;
+    margin: 2px;
+}
+
+.qtd_50 { grid-area: qtd_50;
+    margin: 2px;
+}
+
+.qtd_20 { grid-area: qtd_20;
+    margin: 2px;
+}
+
+.qtd_10 { grid-area: qtd_10;
+    margin: 2px;
+}
+
+.qtd_5 { grid-area: qtd_5;
+    margin: 2px;
+}
+
+.qtd_2 { grid-area: qtd_2;
+    margin: 2px;
+}
+
+.qtd_1 { grid-column: 2;
+    margin: 2px;
+}
